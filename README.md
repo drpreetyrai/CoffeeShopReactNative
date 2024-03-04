@@ -218,6 +218,10 @@ rm -rf \build clean
 pod install 
 
 
+pod setup
+
+
+
  
  
 
@@ -228,9 +232,9 @@ npx react-native-clean-project
 
 
 
-
-
-
+pod install
+sudo gem install cocoapods-clean
+pod install
 
 
 
